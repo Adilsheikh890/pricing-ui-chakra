@@ -10,9 +10,7 @@ import React from 'react'
 
 import { ChakraProvider } from '@chakra-ui/react';
 
-function ChakraWrapper({children}: {
-  
-  children: React.ReactNode}){
+function ChakraWrapper(){
   return (
     <ChakraProvider>
     
@@ -23,8 +21,8 @@ function ChakraWrapper({children}: {
                 
     </ChakraProvider>
   )
-}
 
+  }
 export default ChakraWrapper
 
 
