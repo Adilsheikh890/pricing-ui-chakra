@@ -15,7 +15,7 @@ function ChakraWrapper({children}: {
   children: React.ReactNode}){
   return (
     <ChakraProvider>
-    {children}
+    
                 <Header/>
                 <Pricing />
                 <CheckmarkIcon />

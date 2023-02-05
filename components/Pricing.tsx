@@ -7,14 +7,14 @@ import CheckmarkIcon from '@/app/Icon/CheckmarkIcon';
 export default function Pricing() {
   return (
     <Box maxW='950px'
-      //mx='auto'
+    
       mt='-110px'
       mx={{ base: '20px', lg: 'auto' }}
       bg='white'
       borderRadius='10px'
       overflow='hidden'
       boxShadow='0px 20px 25px -5px rgba(0, 0, 0, 0.1), 
-    0px 10px 10px -5px rgba(0, 0, 0, 0.04)'>
+      0px 10px 10px -5px rgba(0, 0, 0, 0.04)'>
 
       <Flex direction={{ base: 'column', md: 'column', lg: 'row' }}>
        {/* left side box */}
@@ -51,6 +51,7 @@ export default function Pricing() {
             <Icon as={CheckmarkIcon} />
             <Text>24/7 support and consulting</Text>
           </HStack>
+          
         </Box>
       </Flex>
     </Box>
